@@ -1,0 +1,28 @@
+{
+  "name": "localeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anourian/localeApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anourian/localeApp/issues"
+  },
+  "homepage": "https://github.com/Anourian/localeApp#readme",
+  "dependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "gulp": "^3.9.1",
+    "gulp-merge-json": "^0.6.0",
+    "jquery": "^3.1.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "webpack": "^1.13.1"
+  }
+}
