@@ -8,6 +8,11 @@
     "url": "git+https://github.com/Anourian/localeApp.git"
   },
   "author": "",
+  "scripts": {
+    "postinstall":"gulp && webpack build",
+    "start": "nodemon server.js",
+    "watch": "webpack --watch"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Anourian/localeApp/issues"
