@@ -8,6 +8,10 @@ body {
 .delete {
   float:right;
 }
+.delete, .sort {
+  text-decoration: none;
+  color:#fff;
+}
 .fa {
   color:white;
 }.form-group {
@@ -36,7 +40,7 @@ body {
 .hidden {
   visibility:hidden;
   position:absolute;
-  left:900000000px;
+  left:-900000000px;
 }
 .sort {
   float:left;

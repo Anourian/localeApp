@@ -108,8 +108,8 @@ class Search extends React.Component {
                 return (            
                   <div className='tableHeader' key={'header' + index}>
                   <div className='tableControls'>
-                    <a href="#" onClick={this._groupResultsBy.bind(this,value)} className='sort'><i className="fa fa-sort"></i></a>
-                    <a href="#" onClick={this._deleteResult.bind(this,value)} className='delete'><i className="fa fa-times"></i></a>                    
+                    <a href="#" onClick={this._groupResultsBy.bind(this,value)} className='sort'><i className="fa fa-sort"></i> Group</a>
+                    <a href="#" onClick={this._deleteResult.bind(this,value)} className='delete'>Delete <i className="fa fa-times"></i></a>                    
                   </div>
                   <h3>{value}</h3>
                   </div>
